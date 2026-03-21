@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "title": "Lifetify — Dein Leben, organisiert.",
+    "description": "Organisiere Finanzen, Versicherungen, Verträge und mehr in einer schönen, sicheren App."
+  },
+  "nav": {
+    "features": "Features",
+    "pricing": "Preise",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "support": "Support"
+  },
+  "hero": {
+    "tagline": "Dein Leben, organisiert.",
+    "headline": "Alles Wichtige.\nEine App.",
+    "subtitle": "Bankkonten, Versicherungen, Verträge, Immobilien, Investments — Lifetify hält dein gesamtes Leben organisiert, verknüpft und immer griffbereit.",
+    "cta": "Kostenlos herunterladen",
+    "appStore": "App Store",
+    "playStore": "Google Play"
+  },
+  "categories": {
+    "title": "9 Kategorien. Ein Überblick.",
+    "subtitle": "Jeder Bereich deines Lebens hat seinen eigenen Platz — mit eigenen Feldern, Icons und einer einzigartigen Pastel-Akzentfarbe.",
+    "bankAccounts": "Bankkonten",
+    "bankAccountsDesc": "IBAN, BIC, Salden — alles auf einen Blick.",
+    "insurance": "Versicherungen",
+    "insuranceDesc": "Policen, Prämien und Deckungsdetails.",
+    "contracts": "Verträge",
+    "contractsDesc": "Abonnements, Laufzeiten und Verlängerungsdaten.",
+    "realEstate": "Immobilien",
+    "realEstateDesc": "Objekte, Hypotheken und Dokumente.",
+    "contacts": "Kontakte",
+    "contactsDesc": "Berater, Makler und wichtige Personen.",
+    "investments": "Investments",
+    "investmentsDesc": "Aktien, Fonds und Portfolio-Tracking.",
+    "cars": "Autos",
+    "carsDesc": "Fahrzeuge, Zulassungen und Servicehistorie.",
+    "companies": "Firmen",
+    "companiesDesc": "Firmendaten, Steuer-IDs und Unterlagen.",
+    "personal": "Persönliches",
+    "personalDesc": "Ausweise, Steuererklärungen und wichtige persönliche Dokumente."
+  },
+  "features": {
+    "title": "Für das echte Leben gebaut.",
+    "subtitle": "Leistungsstarke Features, die Organisation mühelos machen.",
+    "smartLinks": "Smarte Verknüpfungen",
+    "smartLinksDesc": "Verbinde Einträge über Kategorien hinweg. Verknüpfe eine Versicherung mit einer Immobilie, einen Kontakt mit einer Firma oder ein Bankkonto mit einem Vertrag.",
+    "offlineFirst": "Offline First",
+    "offlineFirstDesc": "Alle Daten werden lokal auf deinem Gerät gespeichert. Funktioniert komplett ohne Internet. Kein Server nötig.",
+    "cloudBackup": "Cloud Backup",
+    "cloudBackupDesc": "Premium-Nutzer können ihre Daten sicher über Geräte synchronisieren und Backups in der Cloud anlegen.",
+    "attachments": "Dateianhänge",
+    "attachmentsDesc": "Dokumente, Fotos und PDFs an jeden Eintrag anhängen. Policen, Verträge, Grundrisse — alles an einem Ort.",
+    "autocomplete": "Smarte Autovervollständigung",
+    "autocompleteDesc": "Vorausgefüllte Bank- und Versicherungsdaten. BIC wird automatisch aus der IBAN erkannt. Versicherungsanbieter werden vorgeschlagen.",
+    "duplicates": "Duplikaterkennung",
+    "duplicatesDesc": "Warnt bei ähnlichen Einträgen (z.B. gleiche IBAN, ähnlicher Name), bevor doppelte Datensätze entstehen.",
+    "search": "Globale Suche",
+    "searchDesc": "Volltextsuche über alle Kategorien hinweg. Finde jeden Eintrag in Sekunden.",
+    "multilingual": "Mehrsprachig",
+    "multilingualDesc": "Verfügbar in Deutsch, Englisch, Spanisch, Französisch und Russisch.",
+    "darkMode": "Dark Mode",
+    "darkModeDesc": "Schöne, ruhige Oberfläche in Light und Dark Mode mit Pastel-Farbpalette.",
+    "privacy": "Datenschutz zuerst",
+    "privacyDesc": "Deine Daten bleiben auf deinem Gerät. Kein Tracking, keine Werbung, keine Datenweitergabe."
+  },
+  "pricing": {
+    "title": "Einfache, faire Preise.",
+    "subtitle": "Starte kostenlos. Upgrade, wenn du mehr brauchst.",
+    "free": "Free",
+    "premium": "Premium",
+    "monthly": "Monat",
+    "yearly": "Jahr",
+    "freePriceLabel": "Für immer kostenlos",
+    "monthlyPrice": "2,99 €",
+    "yearlyPrice": "19,99 €",
+    "yearlySaving": "44% sparen",
+    "freeFeatures": [
+      "4 Kategorien",
+      "Bis zu 3 Einträge pro Kategorie",
+      "Smarte Verknüpfungen",
+      "Globale Suche",
+      "Dark Mode"
+    ],
+    "premiumFeatures": [
+      "Alle 9 Kategorien",
+      "Unbegrenzte Einträge",
+      "Cloud Backup & Sync",
+      "Dateianhänge",
+      "Smarte Autovervollständigung",
+      "Prioritäts-Support"
+    ],
+    "cta": "Jetzt starten"
+  },
+  "cta": {
+    "title": "Bereit, organisiert zu werden?",
+    "subtitle": "Lade Lifetify kostenlos herunter und übernimm die Kontrolle.",
+    "appStore": "Im App Store laden",
+    "playStore": "Bei Google Play laden"
+  },
+  "footer": {
+    "tagline": "Dein Leben, organisiert.",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "support": "Support",
+    "deleteAccount": "Account löschen",
+    "copyright": "© {year} Lifetify. Alle Rechte vorbehalten.",
+    "madeWith": "Mit Sorgfalt für deine Privatsphäre gemacht."
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Zuletzt aktualisiert: 21. März 2026",
+    "intro": "Bei Lifetify nehmen wir deinen Datenschutz ernst. Diese Erklärung erläutert, welche Daten wir erheben, wie wir sie verwenden und welche Rechte du hast. Lifetify zeigt keine Werbung an und verkauft deine Daten nicht.",
+    "sections": {
+      "controller": {
+        "title": "1. Verantwortlicher",
+        "content": "Verantwortlicher im Sinne der DSGVO ist Marcel Friedrich. Für alle datenschutzbezogenen Anfragen kontaktiere uns bitte unter support@lifetify.app."
+      },
+      "dataCollection": {
+        "title": "2. Datenerhebung",
+        "content": "Lifetify speichert alle vom Nutzer eingegebenen Daten (Bankkonten, Versicherungen, Verträge, Immobilien, Kontakte, Investments, Autos, Firmen) lokal auf deinem Gerät mittels SQLite. Wir erheben, übertragen oder speichern diese personenbezogenen Daten nicht auf unseren Servern, es sei denn, du aktivierst aktiv das Cloud Backup (Premium-Funktion)."
+      },
+      "localStorage": {
+        "title": "3. Lokale Speicherung",
+        "content": "Alle Daten werden lokal mittels SQLite auf deinem Gerät gespeichert. Deine Daten bleiben unter deiner vollständigen Kontrolle. Für die Kernfunktionen der App ist keine Internetverbindung erforderlich. Keine persönlichen Daten verlassen dein Gerät, es sei denn, du aktivierst ausdrücklich Cloud Backup."
+      },
+      "cloudBackup": {
+        "title": "4. Cloud Backup (Premium)",
+        "content": "Wenn du Cloud Backup nutzt, werden deine Daten über eine verschlüsselte Verbindung (TLS) übertragen und auf Servern von IONOS in Deutschland gespeichert. Das Backend basiert auf Supabase, einer Open-Source-Plattform. Nur du kannst über dein authentifiziertes Konto auf deine Daten zugreifen. Wir setzen geeignete technische und organisatorische Maßnahmen zum Schutz deiner Daten gemäß Art. 32 DSGVO um. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung)."
+      },
+      "analytics": {
+        "title": "5. Analysedienste (Firebase Analytics)",
+        "content": "Wir verwenden Firebase Analytics, einen Dienst der Google Ireland Limited (Gordon House, Barrow Street, Dublin 4, Irland), um anonyme Nutzungsdaten zu erheben. Dies hilft uns zu verstehen, wie die App genutzt wird, und das Nutzererlebnis zu verbessern. Firebase Analytics erfasst anonymisierte Daten wie App-Öffnungen, Bildschirmaufrufe und Feature-Nutzung. Es werden keine personenbezogenen Daten erhoben. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Verbesserung unseres Dienstes). Du kannst die Erhebung von Analysedaten in den App-Einstellungen unter Datenschutz deaktivieren. Weitere Informationen findest du in der Datenschutzerklärung von Google: https://policies.google.com/privacy"
+      },
+      "crashReporting": {
+        "title": "6. Absturzberichte (Firebase Crashlytics)",
+        "content": "Wir verwenden Firebase Crashlytics, einen Dienst der Google Ireland Limited, zur Analyse von App-Abstürzen und zur Verbesserung der Stabilität unserer App. Crashlytics erfasst Absturzprotokolle, Geräteinformationen (Modell, OS-Version) und anonymisierte IP-Adressen. Diese Daten können nicht auf einzelne Nutzer zurückgeführt werden. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Aufrechterhaltung der App-Stabilität). Weitere Informationen unter: https://firebase.google.com/support/privacy"
+      },
+      "thirdParty": {
+        "title": "7. Abonnementverwaltung (RevenueCat)",
+        "content": "Wir verwenden RevenueCat, Inc. (633 Tarava St Ste 101, San Francisco, CA 94116, USA) zur Verwaltung von In-App-Abonnements. RevenueCat verarbeitet den Abonnementstatus und Transaktionskennungen, die vom Apple App Store oder Google Play Store bereitgestellt werden. RevenueCat hat keinen Zugriff auf deine App-Daten. Die Zahlungsabwicklung erfolgt vollständig durch Apple oder Google. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung). Weitere Informationen unter: https://www.revenuecat.com/privacy"
+      },
+      "cookies": {
+        "title": "8. Cookies & Werbung",
+        "content": "Lifetify verwendet keine Cookies, Tracking-Pixel oder jegliche Form von App-übergreifendem Tracking. Wir schalten keine Werbung und geben keine Daten an Werbenetzwerke weiter."
+      },
+      "dataRetention": {
+        "title": "9. Datenspeicherungsdauer",
+        "content": "Lokale Daten werden auf deinem Gerät gespeichert, bis du sie löschst oder die App deinstallierst. Cloud-Backup-Daten werden gespeichert, solange dein Premium-Abonnement aktiv ist. Nach Kündigung des Abonnements werden die Cloud-Daten 90 Tage lang für eine mögliche Reaktivierung aufbewahrt und danach endgültig gelöscht. Analyse- und Absturzdaten werden nach 90 Tagen automatisch gelöscht."
+      },
+      "rights": {
+        "title": "10. Deine Rechte (DSGVO)",
+        "content": "Gemäß der Datenschutz-Grundverordnung (DSGVO) hast du folgende Rechte: Auskunftsrecht (Art. 15 DSGVO) — Auskunft über deine gespeicherten Daten anfordern. Recht auf Berichtigung (Art. 16 DSGVO) — unrichtige Daten korrigieren. Recht auf Löschung (Art. 17 DSGVO) — Löschung deiner Daten verlangen. Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO). Recht auf Datenübertragbarkeit (Art. 20 DSGVO). Widerspruchsrecht (Art. 21 DSGVO) — Widerspruch gegen Datenverarbeitung auf Basis berechtigter Interessen. Beschwerderecht bei einer Aufsichtsbehörde (Art. 77 DSGVO). Da die meisten Daten lokal auf deinem Gerät gespeichert werden, hast du direkte Kontrolle. Für in der Cloud gespeicherte Daten kontaktiere uns unter support@lifetify.app."
+      },
+      "children": {
+        "title": "11. Datenschutz für Kinder",
+        "content": "Lifetify richtet sich nicht an Kinder unter 16 Jahren. Wir erheben wissentlich keine personenbezogenen Daten von Kindern. Wenn du glaubst, dass ein Kind uns personenbezogene Daten übermittelt hat, kontaktiere uns bitte unter support@lifetify.app, damit wir diese löschen können."
+      },
+      "changes": {
+        "title": "12. Änderungen dieser Erklärung",
+        "content": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Änderungen werden auf dieser Seite mit einem aktualisierten Datum veröffentlicht. Bei wesentlichen Änderungen werden wir die Nutzer über die App benachrichtigen. Die fortgesetzte Nutzung der App nach Änderungen gilt als Akzeptanz der aktualisierten Erklärung."
+      },
+      "contact": {
+        "title": "13. Kontakt",
+        "content": "Für datenschutzbezogene Fragen oder zur Ausübung deiner Rechte kontaktiere uns unter support@lifetify.app."
+      }
+    }
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert: 21. März 2026",
+    "intro": "Durch das Herunterladen oder Nutzen der App gelten diese Bedingungen automatisch fuer dich - stelle daher sicher, dass du sie vor der Nutzung der App sorgfaeltig liest. Du darfst die App, Teile der App oder unsere Markenzeichen in keiner Weise kopieren oder veraendern. Du darfst nicht versuchen, den Quellcode der App zu extrahieren, und du solltest auch nicht versuchen, die App in andere Sprachen zu uebersetzen oder abgeleitete Versionen zu erstellen. Die App selbst und alle damit verbundenen Markenzeichen, Urheberrechte, Datenbankrechte und sonstigen Rechte an geistigem Eigentum gehoeren weiterhin Marcel Friedrich.",
+    "sections": {
+      "usage": {
+        "title": "1. Lizenzgewaehrung",
+        "content": "Dir wird eine eingeschraenkte, nicht-exklusive, nicht uebertragbare, widerrufliche Lizenz zur Nutzung der Lifetify-App fuer persoenliche, nicht-kommerzielle Zwecke gemaess diesen Bedingungen gewaehrt. Marcel Friedrich ist bestrebt sicherzustellen, dass die App so nuetzlich und effizient wie moeglich ist. Aus diesem Grund behalten wir uns das Recht vor, jederzeit und aus beliebigem Grund Aenderungen an der App vorzunehmen oder fuer ihre Dienste Gebuehren zu erheben. Wir werden dir niemals etwas fuer die App oder ihre Dienste berechnen, ohne dir klar zu machen, wofuer du genau bezahlst."
+      },
+      "eligibility": {
+        "title": "2. Nutzungsvoraussetzungen",
+        "content": "Du musst mindestens 16 Jahre alt sein, um Lifetify zu nutzen. Durch die Nutzung der App bestaetigst du, dass du diese Altersanforderung erfuellst und die rechtliche Faehigkeit hast, diese Bedingungen einzugehen."
+      },
+      "accounts": {
+        "title": "3. Nutzerdaten",
+        "content": "Lifetify-Eintraege werden lokal auf deinem Geraet gespeichert. Wir haben keinen Zugriff auf diese Daten, es sei denn, du aktivierst ausdruecklich Cloud Backup. Wenn du Lifetify ohne Cloud Backup nutzt, werden alle Daten lokal auf deinem Geraet gespeichert. Wenn du die App loeschst, werden alle lokal gespeicherten Daten dauerhaft entfernt. Wenn du Cloud Backup (Premium) aktivierst, koennen deine Daten synchronisiert und sicher auf unseren Servern gespeichert werden, um sie auf mehreren Geraeten verfuegbar zu machen. Die Verarbeitung dieser Daten erfolgt gemaess unserer Datenschutzerklaerung. Wir verkaufen oder teilen keine persoenlichen Daten mit Dritten fuer Marketing- oder Werbezwecke."
+      },
+      "subscriptions": {
+        "title": "4. In-App-Kaeufe & Premium-Abonnement",
+        "content": "Die App enthaelt In-App-Kaeufe, die es dir ermoeglichen, die App ohne Einschraenkungen zu nutzen. Du erkennst an und stimmst zu, dass du allein fuer die Verwaltung deiner In-App-Kaeufe verantwortlich bist. Wenn du unter 18 Jahre alt bist, benoetgst du die Erlaubnis deiner Eltern oder Erziehungsberechtigten fuer In-App-Kaeufe. Alle Abrechnungs- und Transaktionsvorgaenge werden vom App-Store-Anbieter abgewickelt, von dessen Plattform du die App heruntergeladen hast, und unterliegen dessen Geschaeftsbedingungen. Bei zahlungsbezogenen Problemen mit In-App-Kaeufen wende dich direkt an den App-Store-Anbieter."
+      },
+      "data": {
+        "title": "5. Premium-Abonnement im Detail",
+        "content": "Lifetify bietet monatliche und jaehrliche Abonnementoptionen. Unser 'Monats'-Abonnement wird in monatlichen Raten bezahlt. Fuer jeden Monat, in dem dein monatliches Abonnement aktiv ist, erkennst du an und stimmst zu, dass Lifetify berechtigt ist, die gleiche Zahlungsmethode wie fuer die urspruengliche Abonnementgebuehr zu belasten. Die monatlichen Verlaengerungsgebuehren werden automatisch abgebucht, bis du kuendigst. Du musst dein Abonnement kuendigen, bevor es sich jeden Monat verlaengert, um die Abrechnung der naechsten Monatsgebuehr zu vermeiden. Unser 'Jahres'-Abonnement wird durch eine einmalige Vorauszahlung mit automatischer jaehrlicher Verlaengerung bezahlt. Alle Preise werden in deiner lokalen Waehrung angezeigt und koennen je nach Wohnsitzland variieren. Preise koennen sich aendern, aber Aenderungen treten erst nach Ende des aktuellen Abonnementzeitraums in Kraft, sofern nichts anderes vereinbart wurde."
+      },
+      "intellectualProperty": {
+        "title": "6. Automatische Verlaengerung",
+        "content": "Dein Abonnement verlaengert sich automatisch, sofern die automatische Verlaengerung nicht mindestens 24 Stunden vor Ende des aktuellen Zeitraums deaktiviert wird. Dein Konto wird innerhalb von 24 Stunden vor Ende des aktuellen Zeitraums fuer die Verlaengerung belastet. Du kannst dein Abonnement nach dem Kauf in den Einstellungen deiner Apple-ID oder deines Google Play-Kontos verwalten oder kuendigen. Bitte beachte, dass das Loeschen der App dein Abonnement nicht kuendigt. Du musst es ueber deine Kontoeinstellungen kuendigen, um weitere Belastungen zu vermeiden. Erstattungen fuer teilweise genutzte Abonnementzeitraeume werden nicht gewaehrt, es sei denn, dies ist gesetzlich vorgeschrieben."
+      },
+      "prohibited": {
+        "title": "7. Premium-Kuendigung",
+        "content": "Du kannst ein Monats- oder Jahresabonnement jederzeit kuendigen. Die Kuendigung wird zum Ende des jeweiligen Abonnementzeitraums wirksam. Dein Abonnement bleibt bis zum Ende des bereits bezahlten Zeitraums aktiv, und nach der Kuendigung werden keine weiteren Zahlungen berechnet. Bitte beachte, dass das Loeschen der App dein Abonnement nicht automatisch kuendigt. Du musst es aktiv ueber deine Kontoeinstellungen auf der Plattform kuendigen, auf der du es gekauft hast. Wenn du ein Abonnement ueber den Apple App Store erworben hast, kannst du es kuendigen, indem du 'Abonnements verwalten' in deinen Apple-ID-Kontoeinstellungen auswahlst. Wenn du ein Abonnement ueber den Google Play Store erworben hast, kannst du die automatische Verlaengerung unter Kontoeinstellungen > Abonnements in der Google Play App kuendigen. Kuendigungen muessen mindestens 24 Stunden vor Ende des aktuellen Abonnementzeitraums erfolgen, um eine Belastung fuer den naechsten Abrechnungszyklus zu vermeiden. Erstattungen fuer teilweise genutzte Abonnementzeitraeume werden nicht gewaehrt, es sei denn, dies ist gesetzlich vorgeschrieben. Wenn du glaubst, faelschlicherweise belastet worden zu sein, wende dich bitte direkt an den Apple- oder Google Play-Support, da alle Abrechnungs- und Erstattungsanfragen vom jeweiligen App-Store-Anbieter bearbeitet werden."
+      },
+      "availability": {
+        "title": "8. Preisaenderungen",
+        "content": "Wir behalten uns das Recht vor, unsere Abonnementplaene oder die Preise fuer unseren Dienst oder einzelne Komponenten jederzeit und nach eigenem Ermessen zu aendern. Sofern in diesen Bedingungen nicht ausdruecklich anders vorgesehen, treten Preisaenderungen oder Aenderungen deines Abonnementplans nach Benachrichtigung in Kraft."
+      },
+      "liability": {
+        "title": "9. Haftung und Konnektivitaet",
+        "content": "Du solltest dir bewusst sein, dass es bestimmte Dinge gibt, fuer die Marcel Friedrich keine Verantwortung uebernimmt. Bestimmte Funktionen der App (wie Cloud Backup) erfordern eine aktive Internetverbindung. Die Verbindung kann ueber WLAN oder deinen Mobilfunkanbieter erfolgen, aber Marcel Friedrich kann keine Verantwortung dafuer uebernehmen, dass die App nicht mit voller Funktionalitaet arbeitet, wenn du keinen Zugang zu WLAN hast und dein Datenvolumen aufgebraucht ist. Wenn du die App ausserhalb eines WLAN-Bereichs nutzt, gelten weiterhin die Bedingungen deines Mobilfunkanbieters. Ebenso kann Marcel Friedrich nicht immer die Verantwortung fuer die Art und Weise uebernehmen, wie du die App nutzt. Du musst sicherstellen, dass dein Geraet aufgeladen bleibt. Obwohl wir uns bemuehen, sicherzustellen, dass die App jederzeit aktuell und korrekt ist, verlassen wir uns auf Dritte, die uns Informationen zur Verfuegung stellen. Marcel Friedrich uebernimmt keine Haftung fuer Verluste, direkte oder indirekte, die du durch das vollstaendige Vertrauen auf diese Funktionalitaet der App erleidest. Diese Beschraenkung gilt nicht fuer Schaeden durch vorsaetzliches Fehlverhalten oder grobe Fahrlaessigkeit oder wenn zwingendes Recht anderes vorschreibt."
+      },
+      "indemnification": {
+        "title": "10. Updates und Beendigung",
+        "content": "Irgendwann moechten wir moeglicherweise die App aktualisieren. Die App ist derzeit fuer iOS und Android verfuegbar - die Anforderungen fuer beide Systeme koennen sich aendern, und du musst die Updates herunterladen, wenn du die App weiterhin nutzen moechtest. Marcel Friedrich verspricht nicht, die App immer so zu aktualisieren, dass sie fuer dich relevant ist und/oder mit der iOS- oder Android-Version funktioniert, die du auf deinem Geraet installiert hast. Du versprichst jedoch, Updates der Anwendung immer zu akzeptieren, wenn sie dir angeboten werden. Wir koennen auch die Bereitstellung der App einstellen und die Nutzung jederzeit ohne Kuendigungsfrist beenden. Sofern wir dir nichts anderes mitteilen: (a) enden die dir in diesen Bedingungen gewaehrten Rechte und Lizenzen; (b) musst du die Nutzung der App einstellen und sie (falls noetig) von deinem Geraet loeschen."
+      },
+      "governing": {
+        "title": "11. Anwendbares Recht & Gerichtsstand",
+        "content": "Diese Bedingungen unterliegen dem Recht der Bundesrepublik Deutschland und werden in Uebereinstimmung damit ausgelegt. Streitigkeiten aus oder im Zusammenhang mit diesen Bedingungen unterliegen der ausschliesslichen Zustaendigkeit der Gerichte in Deutschland. Als Verbraucher innerhalb der EU hast du auch das Recht, Verfahren vor den Gerichten deines Wohnsitzlandes einzuleiten."
+      },
+      "changes": {
+        "title": "12. Aenderungen der Bedingungen",
+        "content": "Wir koennen unsere Nutzungsbedingungen von Zeit zu Zeit aktualisieren. Dir wird empfohlen, diese Seite regelmaessig auf Aenderungen zu ueberpruefen. Wir werden dich ueber Aenderungen informieren, indem wir die neuen Nutzungsbedingungen auf dieser Seite veroeffentlichen. Diese Nutzungsbedingungen gelten ab dem 21. Maerz 2026."
+      },
+      "contact": {
+        "title": "13. Kontakt",
+        "content": "Bei Fragen oder Anregungen zu unseren Nutzungsbedingungen zoegere nicht, uns unter support@lifetify.app zu kontaktieren."
+      }
+    }
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Wir sind für dich da.",
+    "description": "Hast du eine Frage, einen Bug gefunden oder brauchst Hilfe mit deinem Account? Schreib uns und wir melden uns so schnell wie möglich.",
+    "emailLabel": "Schreib uns an",
+    "email": "support@lifetify.app",
+    "responseTime": "Wir antworten in der Regel innerhalb von 24 Stunden."
+  },
+  "deleteAccount": {
+    "title": "Account löschen",
+    "subtitle": "Es tut uns leid, dass du gehst.",
+    "description": "Wenn du deinen Account und alle zugehörigen Daten löschen möchtest, kontaktiere uns bitte per E-Mail. Wir bearbeiten deine Anfrage umgehend.",
+    "emailLabel": "Kontaktiere uns unter",
+    "email": "support@lifetify.app",
+    "note": "Bitte gib die E-Mail-Adresse an, die mit deinem Account verknüpft ist, damit wir deine Daten finden und löschen können.",
+    "localData": "Lokale Daten können durch Deinstallation der App von deinem Gerät gelöscht werden."
+  },
+  "deleteData": {
+    "title": "Meine Daten löschen",
+    "subtitle": "Datenlöschung beantragen.",
+    "description": "Wenn du möchtest, dass wir alle mit deinem Account verknüpften Daten löschen, kontaktiere uns bitte per E-Mail. Wir bearbeiten deine Anfrage gemäß DSGVO.",
+    "emailLabel": "Kontaktiere uns unter",
+    "email": "support@lifetify.app",
+    "note": "Bitte gib die E-Mail-Adresse an, die mit deinem Account verknüpft ist, damit wir deine Daten identifizieren und löschen können.",
+    "localData": "Da Lifetify Daten lokal auf deinem Gerät speichert, kannst du alle lokalen Daten einfach durch Deinstallation der App löschen.",
+    "cloudData": "Wenn du Cloud Backup nutzt, löschen wir auf Anfrage alle in der Cloud gespeicherten Daten."
+  }
+}

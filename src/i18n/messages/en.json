@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "title": "Lifetify — Your life, organized.",
+    "description": "Organize your finances, insurance, contracts, and more in one beautiful, secure app."
+  },
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "support": "Support"
+  },
+  "hero": {
+    "tagline": "Your life, organized.",
+    "headline": "Everything important.\nOne app.",
+    "subtitle": "Bank accounts, insurance, contracts, real estate, investments — Lifetify keeps your entire life organized, linked, and always at your fingertips.",
+    "cta": "Download for Free",
+    "appStore": "App Store",
+    "playStore": "Google Play"
+  },
+  "categories": {
+    "title": "9 Categories. One overview.",
+    "subtitle": "Every area of your life has its own space — with custom fields, icons, and a unique pastel accent color.",
+    "bankAccounts": "Bank Accounts",
+    "bankAccountsDesc": "IBAN, BIC, balances — all at a glance.",
+    "insurance": "Insurance",
+    "insuranceDesc": "Policies, premiums, and coverage details.",
+    "contracts": "Contracts",
+    "contractsDesc": "Subscriptions, terms, and renewal dates.",
+    "realEstate": "Real Estate",
+    "realEstateDesc": "Properties, mortgages, and documents.",
+    "contacts": "Contacts",
+    "contactsDesc": "Advisors, agents, and important people.",
+    "investments": "Investments",
+    "investmentsDesc": "Stocks, funds, and portfolio tracking.",
+    "cars": "Cars",
+    "carsDesc": "Vehicles, registrations, and service history.",
+    "companies": "Companies",
+    "companiesDesc": "Business details, tax IDs, and records.",
+    "personal": "Personal",
+    "personalDesc": "IDs, tax returns, and important personal documents."
+  },
+  "features": {
+    "title": "Built for real life.",
+    "subtitle": "Powerful features that make organization effortless.",
+    "smartLinks": "Smart Links",
+    "smartLinksDesc": "Connect entries across categories. Link an insurance policy to a property, a contact to a company, or a bank account to a contract.",
+    "offlineFirst": "Offline First",
+    "offlineFirstDesc": "All data is stored locally on your device. Works completely without internet. No server required.",
+    "cloudBackup": "Cloud Backup",
+    "cloudBackupDesc": "Premium users can sync data across devices and create secure cloud backups.",
+    "attachments": "File Attachments",
+    "attachmentsDesc": "Attach documents, photos, and PDFs to any entry. Policies, contracts, floor plans — all in one place.",
+    "autocomplete": "Smart Autocomplete",
+    "autocompleteDesc": "Pre-filled bank and insurance data. BIC is automatically detected from IBAN. Insurance providers are suggested.",
+    "duplicates": "Duplicate Detection",
+    "duplicatesDesc": "Warns about similar entries (e.g., same IBAN, similar name) before duplicates are created.",
+    "search": "Global Search",
+    "searchDesc": "Full-text search across all categories. Find any entry in seconds.",
+    "multilingual": "Multilingual",
+    "multilingualDesc": "Available in German, English, Spanish, French, and Russian.",
+    "darkMode": "Dark Mode",
+    "darkModeDesc": "Beautiful, calm interface in light and dark mode with a pastel color palette.",
+    "privacy": "Privacy First",
+    "privacyDesc": "Your data stays on your device. No tracking, no ads, no data sharing."
+  },
+  "pricing": {
+    "title": "Simple, fair pricing.",
+    "subtitle": "Start for free. Upgrade when you need more.",
+    "free": "Free",
+    "premium": "Premium",
+    "monthly": "month",
+    "yearly": "year",
+    "freePriceLabel": "Free forever",
+    "monthlyPrice": "$2.99",
+    "yearlyPrice": "$19.99",
+    "yearlySaving": "Save 44%",
+    "freeFeatures": [
+      "4 categories",
+      "Up to 3 entries per category",
+      "Smart links",
+      "Global search",
+      "Dark mode"
+    ],
+    "premiumFeatures": [
+      "All 9 categories",
+      "Unlimited entries",
+      "Cloud backup & sync",
+      "File attachments",
+      "Smart autocomplete",
+      "Priority support"
+    ],
+    "cta": "Get Started"
+  },
+  "cta": {
+    "title": "Ready to get organized?",
+    "subtitle": "Download Lifetify for free and take control of your life.",
+    "appStore": "Download on the App Store",
+    "playStore": "Get it on Google Play"
+  },
+  "footer": {
+    "tagline": "Your life, organized.",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "support": "Support",
+    "deleteAccount": "Delete Account",
+    "copyright": "© {year} Lifetify. All rights reserved.",
+    "madeWith": "Made with care for your privacy."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 21, 2026",
+    "intro": "At Lifetify, we take your privacy seriously. This policy explains what data we collect, how we use it, and what rights you have. Lifetify does not display ads and does not sell your data.",
+    "sections": {
+      "controller": {
+        "title": "1. Data Controller",
+        "content": "The data controller responsible for this app is Marcel Friedrich. For all privacy-related inquiries, please contact us at support@lifetify.app."
+      },
+      "dataCollection": {
+        "title": "2. Data Collection",
+        "content": "Lifetify stores all user-entered data (bank accounts, insurance, contracts, real estate, contacts, investments, cars, companies) locally on your device using SQLite. We do not collect, transmit, or store this personal data on our servers unless you actively enable Cloud Backup (Premium feature)."
+      },
+      "localStorage": {
+        "title": "3. Local Storage",
+        "content": "All data is stored locally using SQLite on your device. Your data remains under your full control. No internet connection is required to use the core features of the app. No personal data leaves your device unless you explicitly opt into Cloud Backup."
+      },
+      "cloudBackup": {
+        "title": "4. Cloud Backup (Premium)",
+        "content": "If you use Cloud Backup, your data is transmitted via encrypted connection (TLS) and stored on servers operated by IONOS in Germany. The backend is powered by Supabase, an open-source platform. Only you can access your data through your authenticated account. We implement appropriate technical and organizational measures to protect your data in accordance with Art. 32 GDPR. The legal basis for this processing is Art. 6(1)(b) GDPR (performance of a contract)."
+      },
+      "analytics": {
+        "title": "5. Analytics (Firebase Analytics)",
+        "content": "We use Firebase Analytics, a service provided by Google Ireland Limited (Gordon House, Barrow Street, Dublin 4, Ireland), to collect anonymous usage data. This helps us understand how the app is used and improve the user experience. Firebase Analytics collects anonymized data such as app opens, screen views, and feature usage. No personally identifiable information is collected. The legal basis is Art. 6(1)(f) GDPR (legitimate interest in improving our service). You can opt out of analytics data collection in the app settings under Privacy. For more information, see Google's privacy policy: https://policies.google.com/privacy"
+      },
+      "crashReporting": {
+        "title": "6. Crash Reporting (Firebase Crashlytics)",
+        "content": "We use Firebase Crashlytics, a service provided by Google Ireland Limited, to analyze app crashes and improve the stability of our app. Crashlytics collects crash logs, device information (model, OS version), and anonymized IP addresses. This data cannot be traced back to individual users. The legal basis is Art. 6(1)(f) GDPR (legitimate interest in maintaining app stability). For more information, see: https://firebase.google.com/support/privacy"
+      },
+      "thirdParty": {
+        "title": "7. Subscription Management (RevenueCat)",
+        "content": "We use RevenueCat, Inc. (633 Tarava St Ste 101, San Francisco, CA 94116, USA) for managing in-app subscriptions. RevenueCat processes subscription status and transaction identifiers provided by Apple App Store or Google Play Store. RevenueCat does not have access to your app data. Payment processing is handled entirely by Apple or Google. The legal basis is Art. 6(1)(b) GDPR (performance of a contract). For more information, see: https://www.revenuecat.com/privacy"
+      },
+      "cookies": {
+        "title": "8. Cookies & Advertising",
+        "content": "Lifetify does not use cookies, tracking pixels, or any form of cross-app tracking. We do not display advertisements and do not share data with advertising networks."
+      },
+      "dataRetention": {
+        "title": "9. Data Retention",
+        "content": "Local data is stored on your device until you delete it or uninstall the app. Cloud Backup data is retained as long as your Premium subscription is active. After subscription cancellation, cloud data is retained for 90 days to allow for reactivation, after which it is permanently deleted. Analytics and crash data is automatically deleted after 90 days."
+      },
+      "rights": {
+        "title": "10. Your Rights (GDPR)",
+        "content": "Under the General Data Protection Regulation (GDPR), you have the following rights: Right of access (Art. 15 GDPR) — request information about your stored data. Right to rectification (Art. 16 GDPR) — correct inaccurate data. Right to erasure (Art. 17 GDPR) — request deletion of your data. Right to restriction of processing (Art. 18 GDPR). Right to data portability (Art. 20 GDPR). Right to object (Art. 21 GDPR) — object to data processing based on legitimate interest. Right to lodge a complaint with a supervisory authority (Art. 77 GDPR). Since most data is stored locally on your device, you have direct control. For cloud-stored data, contact us at support@lifetify.app."
+      },
+      "children": {
+        "title": "11. Children's Privacy",
+        "content": "Lifetify is not directed at children under the age of 16. We do not knowingly collect personal data from children. If you believe a child has provided us with personal data, please contact us at support@lifetify.app so we can delete it."
+      },
+      "changes": {
+        "title": "12. Changes to This Policy",
+        "content": "We may update this privacy policy from time to time. Changes will be posted on this page with an updated date. For significant changes, we will notify users through the app. Continued use of the app after changes constitutes acceptance of the updated policy."
+      },
+      "contact": {
+        "title": "13. Contact",
+        "content": "For privacy-related questions or to exercise your rights, contact us at support@lifetify.app."
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: March 21, 2026",
+    "intro": "By downloading or using the app, these terms will automatically apply to you - you should make sure therefore that you read them carefully before using the app. You're not allowed to copy or modify the app, any part of the app, or our trademarks in any way. You're not allowed to attempt to extract the source code of the app, and you also shouldn't try to translate the app into other languages or make derivative versions. The app itself, and all the trademarks, copyright, database rights and other intellectual property rights related to it, still belong to Marcel Friedrich.",
+    "sections": {
+      "usage": {
+        "title": "1. License Grant",
+        "content": "You are granted a limited, non-exclusive, non-transferable, revocable license to use the Lifetify app for personal, non-commercial purposes in accordance with these Terms. Marcel Friedrich is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you're paying for."
+      },
+      "eligibility": {
+        "title": "2. Eligibility",
+        "content": "You must be at least 16 years old to use Lifetify. By using the app, you represent that you meet this age requirement and have the legal capacity to enter into these terms."
+      },
+      "accounts": {
+        "title": "3. User Data",
+        "content": "Lifetify entries are stored locally on your device. We don't have any access to this data unless you explicitly choose to enable Cloud Backup. If you use Lifetify without Cloud Backup, all data is stored locally on your device. When you delete the app, all locally stored data is permanently removed. If you enable Cloud Backup (Premium), your data may be synced and stored securely on our servers to make it available across devices. The processing of such data is carried out in accordance with our Privacy Policy. We do not sell or share any personal data with third parties for marketing or advertising purposes."
+      },
+      "subscriptions": {
+        "title": "4. In-App Purchases & Premium Subscription",
+        "content": "The app includes in-app purchases that allow you to use the app without restrictions ('In-App Purchases'). You acknowledge and agree that you are fully responsible for managing your In-App Purchases. If you are under 18 then you must have your parents' or guardians' permission to make any In-App Purchases. All billing and transaction processes are handled by the App Store Provider from whose platform you downloaded the app and are governed by the App Store Provider's terms and conditions. If you have any payment-related issues with In-App Purchases then you need to contact the App Store Provider directly."
+      },
+      "data": {
+        "title": "5. Premium Subscription Details",
+        "content": "Lifetify offers monthly and annual subscription options. Our 'Monthly' subscription is paid in monthly installments. For each month that your monthly subscription is active, you acknowledge and agree that Lifetify is authorized to charge the same payment method as was used for the initial subscription fee. The monthly renewal subscription fees will continue to be billed automatically until cancelled. You must cancel your subscription before it renews each month in order to avoid billing of the next month's subscription fee. Our 'Yearly' subscription is paid for by an upfront one-off payment with automatic annual renewal. All prices are displayed in your local currency and may vary depending on your country of residence. Prices are subject to change, but any changes will only take effect after the current subscription period ends unless otherwise agreed."
+      },
+      "intellectualProperty": {
+        "title": "6. Auto-Renewing Subscriptions",
+        "content": "Your subscription will automatically renew unless auto-renew is turned off at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. You can manage or cancel your subscription by going to your Apple ID or Google Play account settings after purchase. Please note that deleting the app does not cancel your subscription. You must cancel it through your account settings to avoid further charges. Refunds for partially used subscription periods are not provided, except where required by law."
+      },
+      "prohibited": {
+        "title": "7. Premium Cancellation",
+        "content": "You may cancel a Monthly or Yearly subscription at any time. Cancellation is effective at the end of the applicable subscription period. Your subscription will remain active until the end of the period you have already paid for, and no further payments will be charged after cancellation. Please note that deleting the app does not automatically cancel your subscription. You must actively cancel it through your account settings on the platform where you purchased it. If you purchased a subscription through the Apple App Store, you may cancel your subscription by selecting 'Manage Subscriptions' in your Apple ID account settings. If you purchased a subscription through the Google Play Store, you may cancel automatic renewals in Account Settings > Subscriptions in the Google Play app. Cancellations must be made at least 24 hours before the end of the current subscription period to avoid being charged for the next billing cycle. Refunds for partially used subscription periods are not provided, except where required by law. If you believe you have been charged in error, please contact Apple or Google Play support directly, as all billing and refund requests are handled by the respective App Store Provider."
+      },
+      "availability": {
+        "title": "8. Changing Fees and Charges",
+        "content": "We reserve the right to change our subscription plans or adjust pricing for our service or any components thereof in any manner and at any time as we may determine in our sole and absolute discretion. Except as otherwise expressly provided for in these Terms, any price changes or changes to your subscription plan will take effect following notice to you."
+      },
+      "liability": {
+        "title": "9. Liability and Connectivity",
+        "content": "You should be aware that there are certain things that Marcel Friedrich will not take responsibility for. Certain functions of the app (such as Cloud Backup) will require the app to have an active internet connection. The connection can be Wi-Fi or provided by your mobile network provider, but Marcel Friedrich cannot take responsibility for the app not working at full functionality if you don't have access to Wi-Fi and you don't have any of your data allowance left. If you're using the app outside of an area with Wi-Fi, you should remember that your terms of the agreement with your mobile network provider will still apply. Along the same lines, Marcel Friedrich cannot always take responsibility for the way you use the app. You need to make sure that your device stays charged - if it runs out of battery and you can't turn it on to avail the Service, Marcel Friedrich cannot accept responsibility. With respect to Marcel Friedrich's responsibility for your use of the app, it's important to bear in mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. Marcel Friedrich accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app. This limitation does not apply to damages caused by intentional misconduct or gross negligence, or where mandatory law requires otherwise."
+      },
+      "indemnification": {
+        "title": "10. Updates and Termination",
+        "content": "At some point, we may wish to update the app. The app is currently available on iOS and Android - the requirements for both systems may change, and you'll need to download the updates if you want to keep using the app. Marcel Friedrich does not promise that it will always update the app so that it is relevant to you and/or works with the iOS or Android version that you have installed on your device. However, you promise to always accept updates to the application when offered to you. We may also wish to stop providing the app and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise: (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device."
+      },
+      "governing": {
+        "title": "11. Governing Law & Jurisdiction",
+        "content": "These terms are governed by and construed in accordance with the laws of the Federal Republic of Germany. Any disputes arising out of or relating to these Terms shall be subject to the exclusive jurisdiction of the courts in Germany. If you are a consumer within the EU, you also have the right to bring proceedings in the courts of your country of residence."
+      },
+      "changes": {
+        "title": "12. Changes to Terms",
+        "content": "We may update our Terms and Conditions from time to time. You are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page. These terms and conditions are effective as of March 21, 2026."
+      },
+      "contact": {
+        "title": "13. Contact",
+        "content": "If you have any questions or suggestions about our Terms and Conditions, do not hesitate to contact us at support@lifetify.app."
+      }
+    }
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "We're here to help.",
+    "description": "Have a question, found a bug, or need help with your account? Reach out to us and we'll get back to you as soon as possible.",
+    "emailLabel": "Email us at",
+    "email": "support@lifetify.app",
+    "responseTime": "We typically respond within 24 hours."
+  },
+  "deleteAccount": {
+    "title": "Delete Account",
+    "subtitle": "We're sorry to see you go.",
+    "description": "If you'd like to delete your account and all associated data, please contact us via email. We'll process your request promptly.",
+    "emailLabel": "Contact us at",
+    "email": "support@lifetify.app",
+    "note": "Please include the email address associated with your account so we can locate and delete your data.",
+    "localData": "Local data can be deleted by uninstalling the app from your device."
+  },
+  "deleteData": {
+    "title": "Delete My Data",
+    "subtitle": "Request data deletion.",
+    "description": "If you'd like us to delete all data associated with your account, please contact us via email. We'll process your request in accordance with GDPR regulations.",
+    "emailLabel": "Contact us at",
+    "email": "support@lifetify.app",
+    "note": "Please include the email address associated with your account so we can identify and delete your data.",
+    "localData": "Since Lifetify stores data locally on your device, you can delete all local data by simply uninstalling the app.",
+    "cloudData": "If you use Cloud Backup, we will delete all cloud-stored data upon request."
+  }
+}
