@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Edit(*)",
+      "Write(*)",
+      "Read(*)",
+      "Skill(gsd:progress)",
+      "Skill(gsd:progress:*)",
+      "WebFetch(*)",
+      "WebSearch",
+      "Skill(gsd:discuss-phase)",
+      "Skill(gsd:discuss-phase:*)",
+      "Bash(npm run:*)",
+      "Bash(node -e \"JSON.parse\\(require\\(''fs''\\).readFileSync\\(''src/i18n/messages/de.json'',''utf8''\\)\\)\")",
+      "Bash(vercel --version)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
