@@ -1,12 +1,14 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { AppStoreBadges } from "./AppStoreBadges";
-import { Smartphone } from "lucide-react";
+import Image from "next/image";
 
 export function HeroSection() {
   const t = useTranslations("hero");
+  const locale = useLocale();
+  const appScreenshot = locale === "de" ? "/app_de.jpg" : "/app.jpg";
 
   return (
     <section className="relative overflow-hidden px-6 pb-20 pt-32 md:pt-40">
@@ -64,10 +66,13 @@ export function HeroSection() {
             <div className="relative">
               {/* Phone frame */}
               <div className="glass-strong relative h-[580px] w-[280px] overflow-hidden rounded-[3rem] p-3 shadow-2xl shadow-primary/10 sm:h-[640px] sm:w-[310px]">
-                <div className="flex h-full w-full flex-col items-center justify-center rounded-[2.25rem] bg-surface-dim dark:bg-surface-dark-dim">
-                  <Smartphone className="mb-4 h-12 w-12 text-text-muted" />
-                  <p className="text-sm font-medium text-text-muted">App Screenshot</p>
-                  <p className="mt-1 text-xs text-text-muted/60">280 x 580</p>
+                <div className="relative h-full w-full overflow-hidden rounded-[2.25rem]">
+                  <Image
+                    src={appScreenshot}
+                    alt="Lifetify App"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
               </div>
 
