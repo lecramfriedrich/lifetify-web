@@ -13,9 +13,9 @@ export function Navbar() {
   const [open, setOpen] = useState(false);
 
   const navLinks = [
-    { href: "#features", label: t("features") },
-    { href: "#pricing", label: t("pricing") },
-    { href: "/use-cases", label: t("useCases"), isPage: true },
+    { href: "/#features", label: t("features") },
+    { href: "/#pricing", label: t("pricing") },
+    { href: "/use-cases", label: t("useCases") },
   ];
 
   return (
@@ -25,25 +25,15 @@ export function Navbar() {
 
         {/* Desktop */}
         <div className="hidden items-center gap-1 md:flex">
-          {navLinks.map((link) =>
-            link.isPage ? (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="cursor-pointer rounded-xl px-4 py-2 text-sm font-medium text-text-secondary transition-colors duration-200 hover:bg-surface-dim hover:text-text-primary dark:text-text-dark-secondary dark:hover:bg-surface-dark-dim dark:hover:text-text-dark-primary"
-              >
-                {link.label}
-              </Link>
-            ) : (
-              <a
-                key={link.href}
-                href={link.href}
-                className="cursor-pointer rounded-xl px-4 py-2 text-sm font-medium text-text-secondary transition-colors duration-200 hover:bg-surface-dim hover:text-text-primary dark:text-text-dark-secondary dark:hover:bg-surface-dark-dim dark:hover:text-text-dark-primary"
-              >
-                {link.label}
-              </a>
-            )
-          )}
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="cursor-pointer rounded-xl px-4 py-2 text-sm font-medium text-text-secondary transition-colors duration-200 hover:bg-surface-dim hover:text-text-primary dark:text-text-dark-secondary dark:hover:bg-surface-dark-dim dark:hover:text-text-dark-primary"
+            >
+              {link.label}
+            </Link>
+          ))}
           <div className="ml-2 flex items-center gap-1">
             <LanguageSwitcher />
             <ThemeToggle />
@@ -66,27 +56,16 @@ export function Navbar() {
       {/* Mobile menu */}
       {open && (
         <div className="border-t border-gray-200/50 px-6 pb-4 pt-2 dark:border-white/10 md:hidden">
-          {navLinks.map((link) =>
-            link.isPage ? (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setOpen(false)}
-                className="block cursor-pointer rounded-xl px-4 py-2.5 text-sm font-medium text-text-secondary transition-colors hover:bg-surface-dim dark:text-text-dark-secondary dark:hover:bg-surface-dark-dim"
-              >
-                {link.label}
-              </Link>
-            ) : (
-              <a
-                key={link.href}
-                href={link.href}
-                onClick={() => setOpen(false)}
-                className="block cursor-pointer rounded-xl px-4 py-2.5 text-sm font-medium text-text-secondary transition-colors hover:bg-surface-dim dark:text-text-dark-secondary dark:hover:bg-surface-dark-dim"
-              >
-                {link.label}
-              </a>
-            )
-          )}
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              onClick={() => setOpen(false)}
+              className="block cursor-pointer rounded-xl px-4 py-2.5 text-sm font-medium text-text-secondary transition-colors hover:bg-surface-dim dark:text-text-dark-secondary dark:hover:bg-surface-dark-dim"
+            >
+              {link.label}
+            </Link>
+          ))}
           <div className="mt-2 border-t border-gray-200/50 pt-2 dark:border-white/10">
             <LanguageSwitcher />
           </div>
