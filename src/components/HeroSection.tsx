@@ -1,14 +1,20 @@
 "use client";
 
 import { useLocale, useTranslations } from "next-intl";
+import { useTheme } from "next-themes";
 import { motion } from "framer-motion";
 import { AppStoreBadges } from "./AppStoreBadges";
 import Image from "next/image";
 
 export function HeroSection() {
   const t = useTranslations("hero");
+  const tc = useTranslations("categories");
   const locale = useLocale();
-  const appScreenshot = locale === "de" ? "/app_de.jpg" : "/app.jpg";
+  const { resolvedTheme } = useTheme();
+  const isDark = resolvedTheme === "dark";
+  const appScreenshot = locale === "de"
+    ? isDark ? "/app_de_dark.jpg" : "/app_de.jpg"
+    : isDark ? "/app_dark.jpg" : "/app.jpg";
 
   return (
     <section className="relative overflow-hidden px-6 pb-20 pt-32 md:pt-40">
@@ -84,7 +90,7 @@ export function HeroSection() {
               >
                 <div className="flex items-center gap-2">
                   <div className="h-3 w-3 rounded-full bg-pastel-blue" />
-                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">Bank</span>
+                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">{tc("bankAccounts")}</span>
                 </div>
               </motion.div>
 
@@ -95,7 +101,7 @@ export function HeroSection() {
               >
                 <div className="flex items-center gap-2">
                   <div className="h-3 w-3 rounded-full bg-pastel-green" />
-                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">Insurance</span>
+                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">{tc("insurance")}</span>
                 </div>
               </motion.div>
 
@@ -106,7 +112,7 @@ export function HeroSection() {
               >
                 <div className="flex items-center gap-2">
                   <div className="h-3 w-3 rounded-full bg-pastel-pink" />
-                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">Contracts</span>
+                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">{tc("contracts")}</span>
                 </div>
               </motion.div>
 
@@ -117,7 +123,7 @@ export function HeroSection() {
               >
                 <div className="flex items-center gap-2">
                   <div className="h-3 w-3 rounded-full bg-pastel-yellow" />
-                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">Real Estate</span>
+                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">{tc("realEstate")}</span>
                 </div>
               </motion.div>
 
@@ -128,7 +134,7 @@ export function HeroSection() {
               >
                 <div className="flex items-center gap-2">
                   <div className="h-3 w-3 rounded-full bg-pastel-purple" />
-                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">Contacts</span>
+                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">{tc("contacts")}</span>
                 </div>
               </motion.div>
 
@@ -139,7 +145,7 @@ export function HeroSection() {
               >
                 <div className="flex items-center gap-2">
                   <div className="h-3 w-3 rounded-full bg-pastel-orange" />
-                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">Investments</span>
+                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">{tc("investments")}</span>
                 </div>
               </motion.div>
 
@@ -150,7 +156,7 @@ export function HeroSection() {
               >
                 <div className="flex items-center gap-2">
                   <div className="h-3 w-3 rounded-full bg-pastel-teal" />
-                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">Cars</span>
+                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">{tc("cars")}</span>
                 </div>
               </motion.div>
 
@@ -161,7 +167,7 @@ export function HeroSection() {
               >
                 <div className="flex items-center gap-2">
                   <div className="h-3 w-3 rounded-full bg-pastel-red" />
-                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">Companies</span>
+                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">{tc("companies")}</span>
                 </div>
               </motion.div>
 
@@ -172,7 +178,7 @@ export function HeroSection() {
               >
                 <div className="flex items-center gap-2">
                   <div className="h-3 w-3 rounded-full bg-pastel-indigo" />
-                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">Personal</span>
+                  <span className="text-sm font-medium text-text-primary dark:text-text-dark-primary">{tc("personal")}</span>
                 </div>
               </motion.div>
             </div>
