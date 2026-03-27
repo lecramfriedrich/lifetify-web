@@ -18,6 +18,12 @@ export function Footer() {
 
           <div className="flex flex-col gap-2 text-sm sm:flex-row sm:gap-6">
             <Link
+              href="/use-cases"
+              className="cursor-pointer text-text-secondary transition-colors hover:text-text-primary dark:text-text-dark-secondary dark:hover:text-text-dark-primary"
+            >
+              {t("useCases")}
+            </Link>
+            <Link
               href="/privacy"
               className="cursor-pointer text-text-secondary transition-colors hover:text-text-primary dark:text-text-dark-secondary dark:hover:text-text-dark-primary"
             >

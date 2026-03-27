@@ -8,7 +8,8 @@
     "pricing": "Pricing",
     "privacy": "Privacy",
     "terms": "Terms",
-    "support": "Support"
+    "support": "Support",
+    "useCases": "Use Cases"
   },
   "hero": {
     "tagline": "Your life, organized.",
@@ -104,6 +105,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "support": "Support",
+    "useCases": "Use Cases",
     "deleteAccount": "Delete Account",
     "copyright": "© {year} Lifetify. All rights reserved.",
     "madeWith": "Made with care for your privacy."
@@ -242,6 +244,25 @@
     "email": "support@lifetify.app",
     "note": "Please include the email address associated with your account so we can locate and delete your data.",
     "localData": "Local data can be deleted by uninstalling the app from your device."
+  },
+  "useCases": {
+    "title": "How people use Lifetify",
+    "subtitle": "Real-life scenarios that show how Lifetify brings order to your world.",
+    "familyTree": {
+      "title": "Build your family tree",
+      "description": "Create contacts for every family member and link them to each other. Keep track of birthdays, relationships, and important details — all in one place.",
+      "screenshotAlt": "Family tree use case"
+    },
+    "rental": {
+      "title": "Manage your rental apartment",
+      "description": "Link your apartment to the lease contract, landlord contact, home insurance, and the bank account you pay rent from. When you move, you see everything that's affected at a glance.",
+      "screenshotAlt": "Rental apartment use case"
+    },
+    "car": {
+      "title": "Keep your car organized",
+      "description": "Connect your car to its insurance policy, financing contract, mechanic contact, and the bank account for monthly payments. Service history, registration, and documents — always at hand.",
+      "screenshotAlt": "Car management use case"
+    }
   },
   "deleteData": {
     "title": "Delete My Data",

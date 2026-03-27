@@ -8,7 +8,8 @@
     "pricing": "Preise",
     "privacy": "Datenschutz",
     "terms": "AGB",
-    "support": "Support"
+    "support": "Support",
+    "useCases": "Anwendungsfälle"
   },
   "hero": {
     "tagline": "Dein Leben, organisiert.",
@@ -104,6 +105,7 @@
     "privacy": "Datenschutzerklärung",
     "terms": "Nutzungsbedingungen",
     "support": "Support",
+    "useCases": "Anwendungsfälle",
     "deleteAccount": "Account löschen",
     "copyright": "© {year} Lifetify. Alle Rechte vorbehalten.",
     "madeWith": "Mit Sorgfalt für deine Privatsphäre gemacht."
@@ -242,6 +244,25 @@
     "email": "support@lifetify.app",
     "note": "Bitte gib die E-Mail-Adresse an, die mit deinem Account verknüpft ist, damit wir deine Daten finden und löschen können.",
     "localData": "Lokale Daten können durch Deinstallation der App von deinem Gerät gelöscht werden."
+  },
+  "useCases": {
+    "title": "So nutzen andere Lifetify",
+    "subtitle": "Echte Szenarien, die zeigen, wie Lifetify Ordnung in dein Leben bringt.",
+    "familyTree": {
+      "title": "Dein Stammbaum",
+      "description": "Lege Kontakte für jedes Familienmitglied an und verknüpfe sie miteinander. Behalte Geburtstage, Beziehungen und wichtige Details im Blick — alles an einem Ort.",
+      "screenshotAlt": "Stammbaum-Anwendungsfall"
+    },
+    "rental": {
+      "title": "Deine Mietwohnung verwalten",
+      "description": "Verknüpfe deine Wohnung mit dem Mietvertrag, dem Vermieter-Kontakt, der Hausratversicherung und dem Bankkonto für die Miete. Beim Umzug siehst du auf einen Blick, was alles betroffen ist.",
+      "screenshotAlt": "Mietwohnungs-Anwendungsfall"
+    },
+    "car": {
+      "title": "Dein Auto im Griff",
+      "description": "Verbinde dein Auto mit der Versicherung, dem Finanzierungsvertrag, dem Werkstatt-Kontakt und dem Bankkonto für die monatlichen Raten. Servicehistorie, Zulassung und Dokumente — immer griffbereit.",
+      "screenshotAlt": "Auto-Verwaltungs-Anwendungsfall"
+    }
   },
   "deleteData": {
     "title": "Meine Daten löschen",
