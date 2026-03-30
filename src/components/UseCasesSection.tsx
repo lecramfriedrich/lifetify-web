@@ -1,15 +1,15 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { AnimatedSection } from "./AnimatedSection";
 import { Users, Home, Car, Smartphone } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 
 const useCases = [
-  { key: "familyTree", icon: Users, color: "bg-pastel-pink", screenshot: "/use-cases/family-tree.jpg" },
-  { key: "rental", icon: Home, color: "bg-pastel-blue", screenshot: "/use-cases/rental.jpg" },
-  { key: "car", icon: Car, color: "bg-pastel-green", screenshot: "/use-cases/car.jpg" },
+  { key: "rental", icon: Home, color: "bg-pastel-blue", image: "flat" },
+  { key: "car", icon: Car, color: "bg-pastel-green", image: "car" },
+  { key: "familyTree", icon: Users, color: "bg-pastel-pink", image: "contact" },
 ] as const;
 
 function UseCasePhone({ src, alt }: { src: string; alt: string }) {
@@ -40,6 +40,8 @@ function UseCasePhone({ src, alt }: { src: string; alt: string }) {
 
 export function UseCasesSection() {
   const t = useTranslations("useCases");
+  const locale = useLocale();
+  const lang = locale === "de" ? "de" : "en";
 
   return (
     <section className="px-6 pb-24 pt-32">
@@ -64,7 +66,7 @@ export function UseCasesSection() {
                 {/* Screenshot */}
                 <div className="flex flex-1 justify-center">
                   <UseCasePhone
-                    src={useCase.screenshot}
+                    src={`/use-cases/${useCase.image}_${lang}.jpg`}
                     alt={t(`${useCase.key}.screenshotAlt`)}
                   />
                 </div>
