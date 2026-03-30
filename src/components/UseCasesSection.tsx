@@ -16,8 +16,8 @@ function UseCasePhone({ src, alt }: { src: string; alt: string }) {
   const [failed, setFailed] = useState(false);
 
   return (
-    <div className="glass-strong relative h-[480px] w-[240px] overflow-hidden rounded-[2.5rem] p-2.5 shadow-xl shadow-primary/10 sm:h-[540px] sm:w-[270px]">
-      <div className="relative h-full w-full overflow-hidden rounded-[2rem]">
+    <div className="glass-strong relative h-[580px] w-[280px] overflow-hidden rounded-[3rem] p-3 shadow-2xl shadow-primary/10 sm:h-[640px] sm:w-[310px]">
+      <div className="relative h-full w-full overflow-hidden rounded-[2.25rem]">
         {failed ? (
           <div className="flex h-full w-full flex-col items-center justify-center bg-surface-dim dark:bg-surface-dark-dim">
             <Smartphone className="mb-3 h-10 w-10 text-text-muted" />
@@ -29,7 +29,7 @@ function UseCasePhone({ src, alt }: { src: string; alt: string }) {
             src={src}
             alt={alt}
             fill
-            className="object-cover"
+            className="object-contain"
             onError={() => setFailed(true)}
           />
         )}
