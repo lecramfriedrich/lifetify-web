@@ -1,21 +1,95 @@
 {
   "permissions": {
     "allow": [
-      "Bash(*)",
-      "Edit(*)",
-      "Write(*)",
-      "Read(*)",
-      "Skill(gsd:progress)",
-      "Skill(gsd:progress:*)",
-      "WebFetch(*)",
-      "WebSearch",
-      "Skill(gsd:discuss-phase)",
-      "Skill(gsd:discuss-phase:*)",
-      "Bash(npm run:*)",
-      "Bash(node -e \"JSON.parse\\(require\\(''fs''\\).readFileSync\\(''src/i18n/messages/de.json'',''utf8''\\)\\)\")",
-      "Bash(vercel --version)",
-      "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git branch)",
+      "Bash(git checkout *)",
+      "Bash(git switch *)",
+      "Bash(npm test *)",
+      "Bash(pnpm test *)",
+      "Bash(yarn test *)",
+      "Bash(npm run lint *)",
+      "Bash(pnpm lint *)",
+      "Bash(yarn lint *)",
+      "Bash(npm run typecheck *)",
+      "Bash(pnpm typecheck *)",
+      "Bash(yarn typecheck *)",
+      "Bash(prettier *)",
+      "Bash(eslint *)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:github.com)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./**/.env)",
+      "Read(./**/.env.*)",
+      "Read(./secrets/**)",
+      "Read(./**/credentials.json)",
+
+      "Read(./*.pem)",
+      "Read(./*.key)",
+      "Read(./*.p12)",
+      "Read(./*.pfx)",
+
+      "Read(./.ssh/**)",
+      "Read(./.gnupg/**)",
+
+      "Read(~/.ssh/**)",
+      "Read(~/.gnupg/**)",
+      "Read(~/.aws/**)",
+      "Read(~/.config/gcloud/**)",
+      "Read(~/.npmrc)",
+      "Read(~/.git-credentials)",
+
+      "Edit(~/.gnupg/**)",
+      "Edit(~/.aws/**)",
+      "Edit(~/.config/gcloud/**)",
+      "Edit(~/.npmrc)",
+      "Edit(~/.git-credentials)",
+
+      "Edit(./.env)",
+      "Edit(./.env.*)",
+      "Edit(./**/.env)",
+      "Edit(./**/.env.*)",
+      "Edit(./.claude/**)",
+      "Edit(./.git/config)",
+      "Edit(./.git/hooks/**)",
+
+      "Edit(./package-lock.json)",
+      "Edit(./pnpm-lock.yaml)",
+      "Edit(./yarn.lock)",
+
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Bash(nc *)",
+      "Bash(netcat *)",
+      "Bash(ssh *)",
+      "Bash(scp *)",
+      "Bash(rsync *)",
+
+      "Bash(git push *)",
+      "Bash(docker login *)",
+      "Bash(npm publish *)",
+      "Bash(pnpm publish *)",
+      "Bash(yarn publish *)",
+
+      "Bash(pip install *)",
+      "Bash(pip3 install *)",
+      "Bash(brew install *)",
+      "Bash(apt *)",
+      "Bash(apt-get *)",
+      "Bash(sudo *)",
+
+      "Bash(env *)",
+      "Bash(printenv *)",
+      "Bash(set *)",
+      "Bash(export *)",
+
+      "Bash(base64 *)",
+      "Bash(openssl *)"
     ]
   }
 }
