@@ -112,7 +112,7 @@
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "lastUpdated": "Zuletzt aktualisiert: 21. März 2026",
+    "lastUpdated": "Zuletzt aktualisiert: 7. April 2026",
     "intro": "Bei Lifetify nehmen wir deinen Datenschutz ernst. Diese Erklärung erläutert, welche Daten wir erheben, wie wir sie verwenden und welche Rechte du hast. Lifetify zeigt keine Werbung an und verkauft deine Daten nicht.",
     "sections": {
       "controller": {
@@ -131,40 +131,44 @@
         "title": "4. Cloud Backup (Premium)",
         "content": "Wenn du Cloud Backup nutzt, werden deine Daten über eine verschlüsselte Verbindung (TLS) übertragen und auf Servern von IONOS in Deutschland gespeichert. Das Backend basiert auf Supabase, einer Open-Source-Plattform. Nur du kannst über dein authentifiziertes Konto auf deine Daten zugreifen. Wir setzen geeignete technische und organisatorische Maßnahmen zum Schutz deiner Daten gemäß Art. 32 DSGVO um. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung)."
       },
+      "authentication": {
+        "title": "5. Authentifizierung (Apple Sign-In / Google Sign-In)",
+        "content": "Lifetify bietet die Anmeldung über Apple Sign-In und Google Sign-In an. Bei Nutzung dieser Dienste erhalten und verarbeiten wir nur die für die Authentifizierung minimal notwendigen Daten: deine E-Mail-Adresse und eine eindeutige Nutzerkennung. Wir haben keinen Zugriff auf dein Apple- oder Google-Kontopasswort, deine Kontakte oder andere persönliche Daten. Diese Daten werden ausschließlich zur Erstellung und Verwaltung deines Lifetify-Kontos und zur Aktivierung von Cloud Backup (Pro-Funktion) verwendet. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung). Weitere Informationen findest du in der Datenschutzerklärung von Apple (https://www.apple.com/legal/privacy/) und Google (https://policies.google.com/privacy)."
+      },
       "analytics": {
-        "title": "5. Analysedienste (Firebase Analytics)",
+        "title": "6. Analysedienste (Firebase Analytics)",
         "content": "Wir verwenden Firebase Analytics, einen Dienst der Google Ireland Limited (Gordon House, Barrow Street, Dublin 4, Irland), um anonyme Nutzungsdaten zu erheben. Dies hilft uns zu verstehen, wie die App genutzt wird, und das Nutzererlebnis zu verbessern. Firebase Analytics erfasst anonymisierte Daten wie App-Öffnungen, Bildschirmaufrufe und Feature-Nutzung. Es werden keine personenbezogenen Daten erhoben. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Verbesserung unseres Dienstes). Du kannst die Erhebung von Analysedaten in den App-Einstellungen unter Datenschutz deaktivieren. Weitere Informationen findest du in der Datenschutzerklärung von Google: https://policies.google.com/privacy"
       },
       "crashReporting": {
-        "title": "6. Absturzberichte (Firebase Crashlytics)",
-        "content": "Wir verwenden Firebase Crashlytics, einen Dienst der Google Ireland Limited, zur Analyse von App-Abstürzen und zur Verbesserung der Stabilität unserer App. Crashlytics erfasst Absturzprotokolle, Geräteinformationen (Modell, OS-Version) und anonymisierte IP-Adressen. Diese Daten können nicht auf einzelne Nutzer zurückgeführt werden. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Aufrechterhaltung der App-Stabilität). Weitere Informationen unter: https://firebase.google.com/support/privacy"
+        "title": "7. Absturzberichte (Firebase Crashlytics)",
+        "content": "Wir verwenden Firebase Crashlytics, einen Dienst der Google Ireland Limited, zur Analyse von App-Abstürzen und zur Verbesserung der Stabilität unserer App. Crashlytics erfasst Absturzprotokolle, Geräteinformationen (Modell, OS-Version) und anonymisierte IP-Adressen. Diese Daten können nicht auf einzelne Nutzer zurückgeführt werden. Absturzprotokolle werden nach 90 Tagen automatisch gelöscht. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Aufrechterhaltung der App-Stabilität). Weitere Informationen unter: https://firebase.google.com/support/privacy"
       },
       "thirdParty": {
-        "title": "7. Abonnementverwaltung (RevenueCat)",
+        "title": "8. Abonnementverwaltung (RevenueCat)",
         "content": "Wir verwenden RevenueCat, Inc. (633 Tarava St Ste 101, San Francisco, CA 94116, USA) zur Verwaltung von In-App-Abonnements. RevenueCat verarbeitet den Abonnementstatus und Transaktionskennungen, die vom Apple App Store oder Google Play Store bereitgestellt werden. RevenueCat hat keinen Zugriff auf deine App-Daten. Die Zahlungsabwicklung erfolgt vollständig durch Apple oder Google. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung). Weitere Informationen unter: https://www.revenuecat.com/privacy"
       },
       "cookies": {
-        "title": "8. Cookies & Werbung",
+        "title": "9. Cookies & Werbung",
         "content": "Lifetify verwendet keine Cookies, Tracking-Pixel oder jegliche Form von App-übergreifendem Tracking. Wir schalten keine Werbung und geben keine Daten an Werbenetzwerke weiter."
       },
       "dataRetention": {
-        "title": "9. Datenspeicherungsdauer",
+        "title": "10. Datenspeicherungsdauer",
         "content": "Lokale Daten werden auf deinem Gerät gespeichert, bis du sie löschst oder die App deinstallierst. Cloud-Backup-Daten werden gespeichert, solange dein Premium-Abonnement aktiv ist. Nach Kündigung des Abonnements werden die Cloud-Daten 90 Tage lang für eine mögliche Reaktivierung aufbewahrt und danach endgültig gelöscht. Analyse- und Absturzdaten werden nach 90 Tagen automatisch gelöscht."
       },
       "rights": {
-        "title": "10. Deine Rechte (DSGVO)",
+        "title": "11. Deine Rechte (DSGVO)",
         "content": "Gemäß der Datenschutz-Grundverordnung (DSGVO) hast du folgende Rechte: Auskunftsrecht (Art. 15 DSGVO) — Auskunft über deine gespeicherten Daten anfordern. Recht auf Berichtigung (Art. 16 DSGVO) — unrichtige Daten korrigieren. Recht auf Löschung (Art. 17 DSGVO) — Löschung deiner Daten verlangen. Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO). Recht auf Datenübertragbarkeit (Art. 20 DSGVO). Widerspruchsrecht (Art. 21 DSGVO) — Widerspruch gegen Datenverarbeitung auf Basis berechtigter Interessen. Beschwerderecht bei einer Aufsichtsbehörde (Art. 77 DSGVO). Da die meisten Daten lokal auf deinem Gerät gespeichert werden, hast du direkte Kontrolle. Für in der Cloud gespeicherte Daten kontaktiere uns unter support@lifetify.app."
       },
       "children": {
-        "title": "11. Datenschutz für Kinder",
-        "content": "Lifetify richtet sich nicht an Kinder unter 16 Jahren. Wir erheben wissentlich keine personenbezogenen Daten von Kindern. Wenn du glaubst, dass ein Kind uns personenbezogene Daten übermittelt hat, kontaktiere uns bitte unter support@lifetify.app, damit wir diese löschen können."
+        "title": "12. Datenschutz für Kinder",
+        "content": "Lifetify richtet sich nicht an Kinder unter 13 Jahren. Wir erheben wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren in Übereinstimmung mit dem Children's Online Privacy Protection Act (COPPA). Wenn du glaubst, dass ein Kind unter 13 Jahren uns personenbezogene Daten übermittelt hat, kontaktiere uns bitte unter support@lifetify.app, damit wir diese umgehend löschen können."
       },
       "changes": {
-        "title": "12. Änderungen dieser Erklärung",
+        "title": "13. Änderungen dieser Erklärung",
         "content": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Änderungen werden auf dieser Seite mit einem aktualisierten Datum veröffentlicht. Bei wesentlichen Änderungen werden wir die Nutzer über die App benachrichtigen. Die fortgesetzte Nutzung der App nach Änderungen gilt als Akzeptanz der aktualisierten Erklärung."
       },
       "contact": {
-        "title": "13. Kontakt",
+        "title": "14. Kontakt",
         "content": "Für datenschutzbezogene Fragen oder zur Ausübung deiner Rechte kontaktiere uns unter support@lifetify.app."
       }
     }

@@ -112,7 +112,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: March 21, 2026",
+    "lastUpdated": "Last updated: April 7, 2026",
     "intro": "At Lifetify, we take your privacy seriously. This policy explains what data we collect, how we use it, and what rights you have. Lifetify does not display ads and does not sell your data.",
     "sections": {
       "controller": {
@@ -131,40 +131,44 @@
         "title": "4. Cloud Backup (Premium)",
         "content": "If you use Cloud Backup, your data is transmitted via encrypted connection (TLS) and stored on servers operated by IONOS in Germany. The backend is powered by Supabase, an open-source platform. Only you can access your data through your authenticated account. We implement appropriate technical and organizational measures to protect your data in accordance with Art. 32 GDPR. The legal basis for this processing is Art. 6(1)(b) GDPR (performance of a contract)."
       },
+      "authentication": {
+        "title": "5. Authentication (Apple Sign-In / Google Sign-In)",
+        "content": "Lifetify offers sign-in via Apple Sign-In and Google Sign-In. When you use these services, we only receive and process the minimum data necessary for authentication: your email address and a unique user identifier. We do not access your Apple or Google account password, contacts, or other personal data. This data is used solely to create and manage your Lifetify account and to enable Cloud Backup (Pro feature). The legal basis is Art. 6(1)(b) GDPR (performance of a contract). For more information, see Apple's privacy policy (https://www.apple.com/legal/privacy/) and Google's privacy policy (https://policies.google.com/privacy)."
+      },
       "analytics": {
-        "title": "5. Analytics (Firebase Analytics)",
+        "title": "6. Analytics (Firebase Analytics)",
         "content": "We use Firebase Analytics, a service provided by Google Ireland Limited (Gordon House, Barrow Street, Dublin 4, Ireland), to collect anonymous usage data. This helps us understand how the app is used and improve the user experience. Firebase Analytics collects anonymized data such as app opens, screen views, and feature usage. No personally identifiable information is collected. The legal basis is Art. 6(1)(f) GDPR (legitimate interest in improving our service). You can opt out of analytics data collection in the app settings under Privacy. For more information, see Google's privacy policy: https://policies.google.com/privacy"
       },
       "crashReporting": {
-        "title": "6. Crash Reporting (Firebase Crashlytics)",
-        "content": "We use Firebase Crashlytics, a service provided by Google Ireland Limited, to analyze app crashes and improve the stability of our app. Crashlytics collects crash logs, device information (model, OS version), and anonymized IP addresses. This data cannot be traced back to individual users. The legal basis is Art. 6(1)(f) GDPR (legitimate interest in maintaining app stability). For more information, see: https://firebase.google.com/support/privacy"
+        "title": "7. Crash Reporting (Firebase Crashlytics)",
+        "content": "We use Firebase Crashlytics, a service provided by Google Ireland Limited, to analyze app crashes and improve the stability of our app. Crashlytics collects crash logs, device information (model, OS version), and anonymized IP addresses. This data cannot be traced back to individual users. Crash logs are automatically deleted after 90 days. The legal basis is Art. 6(1)(f) GDPR (legitimate interest in maintaining app stability). For more information, see: https://firebase.google.com/support/privacy"
       },
       "thirdParty": {
-        "title": "7. Subscription Management (RevenueCat)",
+        "title": "8. Subscription Management (RevenueCat)",
         "content": "We use RevenueCat, Inc. (633 Tarava St Ste 101, San Francisco, CA 94116, USA) for managing in-app subscriptions. RevenueCat processes subscription status and transaction identifiers provided by Apple App Store or Google Play Store. RevenueCat does not have access to your app data. Payment processing is handled entirely by Apple or Google. The legal basis is Art. 6(1)(b) GDPR (performance of a contract). For more information, see: https://www.revenuecat.com/privacy"
       },
       "cookies": {
-        "title": "8. Cookies & Advertising",
+        "title": "9. Cookies & Advertising",
         "content": "Lifetify does not use cookies, tracking pixels, or any form of cross-app tracking. We do not display advertisements and do not share data with advertising networks."
       },
       "dataRetention": {
-        "title": "9. Data Retention",
+        "title": "10. Data Retention",
         "content": "Local data is stored on your device until you delete it or uninstall the app. Cloud Backup data is retained as long as your Premium subscription is active. After subscription cancellation, cloud data is retained for 90 days to allow for reactivation, after which it is permanently deleted. Analytics and crash data is automatically deleted after 90 days."
       },
       "rights": {
-        "title": "10. Your Rights (GDPR)",
+        "title": "11. Your Rights (GDPR)",
         "content": "Under the General Data Protection Regulation (GDPR), you have the following rights: Right of access (Art. 15 GDPR) — request information about your stored data. Right to rectification (Art. 16 GDPR) — correct inaccurate data. Right to erasure (Art. 17 GDPR) — request deletion of your data. Right to restriction of processing (Art. 18 GDPR). Right to data portability (Art. 20 GDPR). Right to object (Art. 21 GDPR) — object to data processing based on legitimate interest. Right to lodge a complaint with a supervisory authority (Art. 77 GDPR). Since most data is stored locally on your device, you have direct control. For cloud-stored data, contact us at support@lifetify.app."
       },
       "children": {
-        "title": "11. Children's Privacy",
-        "content": "Lifetify is not directed at children under the age of 16. We do not knowingly collect personal data from children. If you believe a child has provided us with personal data, please contact us at support@lifetify.app so we can delete it."
+        "title": "12. Children's Privacy",
+        "content": "Lifetify is not directed at children under the age of 13. We do not knowingly collect personal data from children under 13 in compliance with the Children's Online Privacy Protection Act (COPPA). If you believe a child under 13 has provided us with personal data, please contact us at support@lifetify.app so we can promptly delete it."
       },
       "changes": {
-        "title": "12. Changes to This Policy",
+        "title": "13. Changes to This Policy",
         "content": "We may update this privacy policy from time to time. Changes will be posted on this page with an updated date. For significant changes, we will notify users through the app. Continued use of the app after changes constitutes acceptance of the updated policy."
       },
       "contact": {
-        "title": "13. Contact",
+        "title": "14. Contact",
         "content": "For privacy-related questions or to exercise your rights, contact us at support@lifetify.app."
       }
     }

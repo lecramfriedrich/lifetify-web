@@ -8,6 +8,7 @@ export default function PrivacyPage() {
     "dataCollection",
     "localStorage",
     "cloudBackup",
+    "authentication",
     "analytics",
     "crashReporting",
     "thirdParty",
