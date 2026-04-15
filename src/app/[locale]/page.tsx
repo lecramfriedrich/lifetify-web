@@ -6,7 +6,7 @@ import { PricingSection } from "@/components/PricingSection";
 import { CTASection } from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
 };
 
 export default function HomePage() {
