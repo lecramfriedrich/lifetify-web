@@ -1,5 +1,7 @@
+"use client";
+
 /* eslint-disable @next/next/no-img-element */
-import { CSSProperties } from "react";
+import { CSSProperties, useState } from "react";
 
 const PRIMARY = "#7C3AED";
 const PRIMARY_LIGHT = "#A78BFA";
@@ -9,6 +11,45 @@ const fonts = {
   heading: '"Lexend", sans-serif',
   body: '"Source Sans 3", sans-serif',
 };
+
+type Locale = "en" | "de";
+
+const translations = {
+  en: {
+    headline1: "Your life,",
+    headline2: "organized.",
+    tagline: "Finances, insurance, contracts & more — all in one app.",
+    taglineShort: "Finances, insurance, contracts — all in one app.",
+    taglineLong: "one app for everything.",
+    cta: "Download Free",
+    categories: {
+      banking: "Banking",
+      insurance: "Insurance",
+      contracts: "Contracts",
+      realEstate: "Real Estate",
+      investments: "Investments",
+      contacts: "Contacts",
+    },
+  },
+  de: {
+    headline1: "Dein Leben,",
+    headline2: "organisiert.",
+    tagline: "Finanzen, Versicherungen, Verträge & mehr – alles in einer App.",
+    taglineShort: "Finanzen, Versicherungen, Verträge – alles in einer App.",
+    taglineLong: "eine App für alles.",
+    cta: "Kostenlos laden",
+    categories: {
+      banking: "Banking",
+      insurance: "Versicherung",
+      contracts: "Verträge",
+      realEstate: "Immobilien",
+      investments: "Investitionen",
+      contacts: "Kontakte",
+    },
+  },
+};
+
+type T = (typeof translations)["en"];
 
 function Banner({
   width,
@@ -90,10 +131,12 @@ function CTAButton({
   fontSize = 13,
   px = 20,
   py = 8,
+  label,
 }: {
   fontSize?: number;
   px?: number;
   py?: number;
+  label: string;
 }) {
   return (
     <div
@@ -108,7 +151,7 @@ function CTAButton({
         borderRadius: 999,
       }}
     >
-      Download Free
+      {label}
     </div>
   );
 }
@@ -144,9 +187,7 @@ function CategoryDot({
           flexShrink: 0,
         }}
       />
-      <span
-        style={{ fontFamily: fonts.body, fontSize, color: "#0F172A" }}
-      >
+      <span style={{ fontFamily: fonts.body, fontSize, color: "#0F172A" }}>
         {label}
       </span>
     </div>
@@ -154,7 +195,7 @@ function CategoryDot({
 }
 
 /** 300×250 — Medium Rectangle */
-function MediumRectangle() {
+function MediumRectangle({ t }: { t: T }) {
   return (
     <Banner width={300} height={250} id="Medium Rectangle">
       <GradientBg />
@@ -169,7 +210,6 @@ function MediumRectangle() {
           padding: 20,
         }}
       >
-        {/* Top: Logo + tagline */}
         <div>
           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
             <Logo size={28} />
@@ -177,7 +217,6 @@ function MediumRectangle() {
           </div>
         </div>
 
-        {/* Middle: Headline */}
         <div>
           <h2
             style={{
@@ -189,7 +228,7 @@ function MediumRectangle() {
               margin: 0,
             }}
           >
-            Your life,
+            {t.headline1}
             <br />
             <span
               style={{
@@ -198,7 +237,7 @@ function MediumRectangle() {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              organized.
+              {t.headline2}
             </span>
           </h2>
           <p
@@ -210,11 +249,10 @@ function MediumRectangle() {
               lineHeight: 1.4,
             }}
           >
-            Finances, insurance, contracts &amp; more — all in one app.
+            {t.tagline}
           </p>
         </div>
 
-        {/* Bottom: Categories + CTA */}
         <div>
           <div
             style={{
@@ -224,11 +262,11 @@ function MediumRectangle() {
               marginBottom: 12,
             }}
           >
-            <CategoryDot color="#A8C8F0" label="Banking" />
-            <CategoryDot color="#A8E6CF" label="Insurance" />
-            <CategoryDot color="#F4A8C8" label="Contracts" />
+            <CategoryDot color="#A8C8F0" label={t.categories.banking} />
+            <CategoryDot color="#A8E6CF" label={t.categories.insurance} />
+            <CategoryDot color="#F4A8C8" label={t.categories.contracts} />
           </div>
-          <CTAButton />
+          <CTAButton label={t.cta} />
         </div>
       </div>
     </Banner>
@@ -236,7 +274,7 @@ function MediumRectangle() {
 }
 
 /** 728×90 — Leaderboard */
-function Leaderboard() {
+function Leaderboard({ t }: { t: T }) {
   return (
     <Banner width={728} height={90} id="Leaderboard">
       <GradientBg />
@@ -251,13 +289,11 @@ function Leaderboard() {
           gap: 28,
         }}
       >
-        {/* Logo */}
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
           <Logo size={36} />
           <Wordmark height={22} />
         </div>
 
-        {/* Headline */}
         <div style={{ flex: 1 }}>
           <h2
             style={{
@@ -269,7 +305,7 @@ function Leaderboard() {
               lineHeight: 1.3,
             }}
           >
-            Your life,{" "}
+            {t.headline1}{" "}
             <span
               style={{
                 background: `linear-gradient(90deg, ${PRIMARY}, ${PRIMARY_LIGHT})`,
@@ -277,7 +313,7 @@ function Leaderboard() {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              organized.
+              {t.headline2}
             </span>
           </h2>
           <p
@@ -288,26 +324,24 @@ function Leaderboard() {
               margin: "2px 0 0",
             }}
           >
-            Finances, insurance, contracts &amp; more — one app for everything.
+            {t.taglineShort} {t.taglineLong}
           </p>
         </div>
 
-        {/* Categories */}
         <div style={{ display: "flex", gap: 6 }}>
-          <CategoryDot color="#A8C8F0" label="Banking" />
-          <CategoryDot color="#A8E6CF" label="Insurance" />
-          <CategoryDot color="#F4A8C8" label="Contracts" />
+          <CategoryDot color="#A8C8F0" label={t.categories.banking} />
+          <CategoryDot color="#A8E6CF" label={t.categories.insurance} />
+          <CategoryDot color="#F4A8C8" label={t.categories.contracts} />
         </div>
 
-        {/* CTA */}
-        <CTAButton fontSize={14} px={24} py={10} />
+        <CTAButton fontSize={14} px={24} py={10} label={t.cta} />
       </div>
     </Banner>
   );
 }
 
 /** 160×600 — Wide Skyscraper */
-function WideSkyscraper() {
+function WideSkyscraper({ t }: { t: T }) {
   return (
     <Banner width={160} height={600} id="Wide Skyscraper">
       <GradientBg />
@@ -324,7 +358,6 @@ function WideSkyscraper() {
           textAlign: "center",
         }}
       >
-        {/* Logo */}
         <div>
           <Logo size={36} />
           <div style={{ marginTop: 8 }}>
@@ -332,7 +365,6 @@ function WideSkyscraper() {
           </div>
         </div>
 
-        {/* Headline */}
         <div>
           <h2
             style={{
@@ -344,7 +376,7 @@ function WideSkyscraper() {
               margin: 0,
             }}
           >
-            Your life,
+            {t.headline1}
             <br />
             <span
               style={{
@@ -353,12 +385,11 @@ function WideSkyscraper() {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              organized.
+              {t.headline2}
             </span>
           </h2>
         </div>
 
-        {/* Categories */}
         <div
           style={{
             display: "flex",
@@ -367,15 +398,14 @@ function WideSkyscraper() {
             alignItems: "center",
           }}
         >
-          <CategoryDot color="#A8C8F0" label="Banking" fontSize={10} />
-          <CategoryDot color="#A8E6CF" label="Insurance" fontSize={10} />
-          <CategoryDot color="#F4A8C8" label="Contracts" fontSize={10} />
-          <CategoryDot color="#F8E8A0" label="Real Estate" fontSize={10} />
-          <CategoryDot color="#C8A8F0" label="Investments" fontSize={10} />
-          <CategoryDot color="#F0C8A8" label="Contacts" fontSize={10} />
+          <CategoryDot color="#A8C8F0" label={t.categories.banking} fontSize={10} />
+          <CategoryDot color="#A8E6CF" label={t.categories.insurance} fontSize={10} />
+          <CategoryDot color="#F4A8C8" label={t.categories.contracts} fontSize={10} />
+          <CategoryDot color="#F8E8A0" label={t.categories.realEstate} fontSize={10} />
+          <CategoryDot color="#C8A8F0" label={t.categories.investments} fontSize={10} />
+          <CategoryDot color="#F0C8A8" label={t.categories.contacts} fontSize={10} />
         </div>
 
-        {/* App screenshot hint */}
         <div
           style={{
             width: 80,
@@ -395,15 +425,14 @@ function WideSkyscraper() {
           />
         </div>
 
-        {/* CTA */}
-        <CTAButton fontSize={12} px={16} py={8} />
+        <CTAButton fontSize={12} px={16} py={8} label={t.cta} />
       </div>
     </Banner>
   );
 }
 
 /** 336×280 — Large Rectangle */
-function LargeRectangle() {
+function LargeRectangle({ t }: { t: T }) {
   return (
     <Banner width={336} height={280} id="Large Rectangle">
       <GradientBg />
@@ -417,7 +446,6 @@ function LargeRectangle() {
           padding: 20,
         }}
       >
-        {/* Left content */}
         <div
           style={{
             flex: 1,
@@ -442,7 +470,7 @@ function LargeRectangle() {
                 margin: 0,
               }}
             >
-              Your life,
+              {t.headline1}
               <br />
               <span
                 style={{
@@ -451,7 +479,7 @@ function LargeRectangle() {
                   WebkitTextFillColor: "transparent",
                 }}
               >
-                organized.
+                {t.headline2}
               </span>
             </h2>
             <p
@@ -463,27 +491,20 @@ function LargeRectangle() {
                 lineHeight: 1.4,
               }}
             >
-              Finances, insurance, contracts — all in one app.
+              {t.taglineShort}
             </p>
           </div>
 
           <div style={{ display: "flex", flexDirection: "column", gap: 5 }}>
-            <CategoryDot color="#A8C8F0" label="Banking" fontSize={10} />
-            <CategoryDot color="#A8E6CF" label="Insurance" fontSize={10} />
-            <CategoryDot color="#F4A8C8" label="Contracts" fontSize={10} />
+            <CategoryDot color="#A8C8F0" label={t.categories.banking} fontSize={10} />
+            <CategoryDot color="#A8E6CF" label={t.categories.insurance} fontSize={10} />
+            <CategoryDot color="#F4A8C8" label={t.categories.contracts} fontSize={10} />
           </div>
 
-          <CTAButton fontSize={12} px={18} py={7} />
+          <CTAButton fontSize={12} px={18} py={7} label={t.cta} />
         </div>
 
-        {/* Right: phone mockup */}
-        <div
-          style={{
-            width: 100,
-            display: "flex",
-            alignItems: "center",
-          }}
-        >
+        <div style={{ width: 100, display: "flex", alignItems: "center" }}>
           <div
             style={{
               width: 100,
@@ -508,28 +529,83 @@ function LargeRectangle() {
   );
 }
 
+function LanguageSwitcher({
+  locale,
+  onChange,
+}: {
+  locale: Locale;
+  onChange: (l: Locale) => void;
+}) {
+  return (
+    <div
+      style={{
+        display: "inline-flex",
+        borderRadius: 999,
+        border: `1px solid ${PRIMARY}33`,
+        overflow: "hidden",
+        fontFamily: fonts.heading,
+        fontSize: 13,
+        fontWeight: 600,
+      }}
+    >
+      {(["en", "de"] as Locale[]).map((l) => (
+        <button
+          key={l}
+          onClick={() => onChange(l)}
+          style={{
+            padding: "6px 18px",
+            border: "none",
+            cursor: "pointer",
+            background: locale === l ? PRIMARY : "transparent",
+            color: locale === l ? "#fff" : PRIMARY,
+            fontFamily: fonts.heading,
+            fontWeight: 600,
+            fontSize: 13,
+            transition: "background 0.15s, color 0.15s",
+          }}
+        >
+          {l.toUpperCase()}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 export default function BannerPage() {
+  const [locale, setLocale] = useState<Locale>("en");
+  const t = translations[locale];
+
   return (
     <div style={{ padding: 40, fontFamily: fonts.body }}>
-      <h1
+      <div
         style={{
-          fontFamily: fonts.heading,
-          fontSize: 28,
-          fontWeight: 700,
-          color: "#0F172A",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
           marginBottom: 8,
         }}
       >
-        Google Ads Banners
-      </h1>
+        <h1
+          style={{
+            fontFamily: fonts.heading,
+            fontSize: 28,
+            fontWeight: 700,
+            color: "#0F172A",
+            margin: 0,
+          }}
+        >
+          Google Ads Banners
+        </h1>
+        <LanguageSwitcher locale={locale} onChange={setLocale} />
+      </div>
       <p style={{ color: "#64748B", marginBottom: 40, fontSize: 15 }}>
         Screenshot each banner at its native size for use in Google Ads.
       </p>
 
-      <MediumRectangle />
-      <LargeRectangle />
-      <Leaderboard />
-      <WideSkyscraper />
+      <MediumRectangle t={t} />
+      <LargeRectangle t={t} />
+      <Leaderboard t={t} />
+      <WideSkyscraper t={t} />
     </div>
   );
 }
