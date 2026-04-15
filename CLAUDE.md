@@ -7,7 +7,4 @@
 
 ## Shell Commands
 
-- **Never** execute Bash commands directly. Instead, output the exact command the user should run manually.
-- Format commands as a fenced code block with `bash` language tag.
-- If a command is required to continue your work, pause and say: **"⚠️ ACTION REQUIRED — please run the following command and paste the output:"**
-- Do not use the Bash tool even if permissions allow it. Always let the user execute commands themselves.
+- Bash commands may be executed directly when needed.
